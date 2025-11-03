@@ -41,7 +41,7 @@ const Navbar = () => {
                     {/* Logo */}
                     <div className="flex items-center">
                         <img
-                            src="/logo.png"
+                            src="https://raw.githubusercontent.com/an3dree/gago-barbeiro/refs/heads/main/public/logo.jpg"
                             alt="Gago Barber Shop Logo"
                             className="h-16 md:h-20 w-auto cursor-pointer transition-transform hover:scale-105"
                             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}

@@ -41,10 +41,10 @@ const Localizacao = () => {
                             <div>
                                 <h4 className="text-barber-cream font-bold mb-1">Telefone</h4>
                                 <a
-                                    href="tel:+5511999999999"
+                                    href="tel:+558185427560"
                                     className="text-zinc-400 hover:text-barber-gold transition-colors"
                                 >
-                                    (11) 99999-9999
+                                    (81) 8542-7560
                                 </a>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const Localizacao = () => {
                         {/* Botão de Agendamento */}
                         <div className="pt-6 border-t border-zinc-700">
                             <a
-                                href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20agendar%20um%20horário."
+                                href="https://wa.me/558185427560?text=Olá!%20Gostaria%20de%20agendar%20um%20horário."
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn-primary w-full text-center block"

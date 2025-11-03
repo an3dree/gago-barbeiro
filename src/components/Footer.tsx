@@ -1,4 +1,4 @@
-import { Instagram, Facebook, MapPin, Phone, Mail } from 'lucide-react';
+import { Instagram, MapPin, Phone, Mail } from 'lucide-react';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -11,7 +11,7 @@ const Footer = () => {
                     {/* Coluna 1: Logo e Descrição */}
                     <div className="text-center md:text-left">
                         <img
-                            src="/logo.png"
+                            src="https://raw.githubusercontent.com/an3dree/gago-barbeiro/refs/heads/main/public/logo.jpg"
                             alt="Gago Barber Shop"
                             className="h-24 w-auto mx-auto md:mx-0 mb-4"
                         />
@@ -23,22 +23,13 @@ const Footer = () => {
                         {/* Redes Sociais */}
                         <div className="flex gap-4 justify-center md:justify-start">
                             <a
-                                href="https://instagram.com/gagobarbershop"
+                                href="https://www.instagram.com/allysonbarbershop/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-zinc-800 hover:bg-barber-red text-barber-cream p-3 rounded-full transition-all duration-300 hover:scale-110"
                                 aria-label="Instagram"
                             >
                                 <Instagram size={20} />
-                            </a>
-                            <a
-                                href="https://facebook.com/gagobarbershop"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="bg-zinc-800 hover:bg-barber-red text-barber-cream p-3 rounded-full transition-all duration-300 hover:scale-110"
-                                aria-label="Facebook"
-                            >
-                                <Facebook size={20} />
                             </a>
                         </div>
                     </div>
@@ -67,10 +58,10 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#equipe"
+                                    href="#funcionamento"
                                     className="text-zinc-400 hover:text-barber-gold transition-colors"
                                 >
-                                    Nossa Equipe
+                                    Horário
                                 </a>
                             </li>
                             <li>
@@ -92,9 +83,9 @@ const Footer = () => {
                             <div className="flex items-start gap-3 justify-center md:justify-start">
                                 <MapPin className="text-barber-red flex-shrink-0 mt-1" size={18} />
                                 <p className="text-zinc-400 text-sm">
-                                    Rua dos Barbeiros, 123
+                                    Avenida Santo Expedito, 18c
                                     <br />
-                                    Centro - São Paulo, SP
+                                    Alameda Paulista - Pernambuco
                                 </p>
                             </div>
 
@@ -102,10 +93,10 @@ const Footer = () => {
                             <div className="flex items-center gap-3 justify-center md:justify-start">
                                 <Phone className="text-barber-red flex-shrink-0" size={18} />
                                 <a
-                                    href="tel:+5511999999999"
+                                    href="tel:+558185427560"
                                     className="text-zinc-400 text-sm hover:text-barber-gold transition-colors"
                                 >
-                                    (11) 99999-9999
+                                    (81) 8542-7560
                                 </a>
                             </div>
 

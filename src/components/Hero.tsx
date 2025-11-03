@@ -15,7 +15,7 @@ const Hero = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url('/hero.jpeg')`,
+                        backgroundImage: `url('https://raw.githubusercontent.com/an3dree/gago-barbeiro/refs/heads/main/public/hero.jpeg')`,
                     }}
                 />
                 {/* Overlay escuro para melhorar legibilidade */}
@@ -24,13 +24,7 @@ const Hero = () => {
 
             {/* Conteúdo */}
             <div className="relative z-10 text-center px-4 animate-fadeInUp">
-                <div className="mb-6">
-                    <img
-                        src="/logo.png"
-                        alt="Gago Barber Shop"
-                        className="h-32 md:h-48 w-auto mx-auto mb-8 drop-shadow-2xl"
-                    />
-                </div>
+
 
                 <h1 className="text-barber-cream text-shadow mb-6 leading-tight">
                     Tradição e Estilo

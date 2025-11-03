@@ -7,12 +7,16 @@ const Galeria = () => {
     // Galeria de trabalhos da Gago Barber Shop
     const images = [
         {
-            src: '/trabalho1.png',
+            src: 'https://raw.githubusercontent.com/an3dree/gago-barbeiro/refs/heads/main/public/trabalho1.png',
             alt: 'Trabalho profissional - Corte e estilo',
         },
         {
-            src: '/trabalho2.png',
+            src: 'https://raw.githubusercontent.com/an3dree/gago-barbeiro/refs/heads/main/public/trabalho2.png',
             alt: 'Trabalho profissional - Design artístico',
+        },
+        {
+            src: 'https://raw.githubusercontent.com/an3dree/gago-barbeiro/refs/heads/main/public/profile.jpg',
+            alt: 'Barbeiro em ação - Trabalho profissional',
         },
         {
             src: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=2070',
@@ -25,10 +29,6 @@ const Galeria = () => {
         {
             src: 'https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=2070',
             alt: 'Corte social clássico',
-        },
-        {
-            src: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=2070',
-            alt: 'Barba terapia com navalha',
         },
     ];
 
