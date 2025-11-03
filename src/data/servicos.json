@@ -84,12 +84,12 @@
                     "preco": "R$ 20,00"
                 },
                 {
-                    "nome": "Epilação Nasal",
+                    "nome": "Depilação Nasal",
                     "desc": "Remoção de pelos nasais com cuidado.",
                     "preco": "R$ 10,00"
                 },
                 {
-                    "nome": "Epilação Auricular",
+                    "nome": "Depilação Auricular",
                     "desc": "Remoção de pelos da orelha.",
                     "preco": "R$ 10,00"
                 }
