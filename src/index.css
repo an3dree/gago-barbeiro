@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset e Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply font-body bg-barber-black text-barber-cream;
+    overflow-x: hidden;
+}
+
+/* Scrollbar Customizada */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-barber-black;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-barber-red;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-red-700;
+}
+
+/* Utilities Customizadas */
+@layer utilities {
+    .text-shadow {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    .backdrop-blur-custom {
+        backdrop-filter: blur(10px);
+    }
+}
+
+/* Animações Customizadas */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeInUp {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+/* Heading Styles */
+h1,
+h2,
+h3 {
+    @apply font-heading;
+}
+
+h1 {
+    @apply text-5xl md:text-7xl lg:text-8xl;
+}
+
+h2 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+}
+
+h3 {
+    @apply text-3xl md:text-4xl;
+}
+
+/* Button Base Styles */
+.btn-primary {
+    @apply bg-barber-red text-white px-8 py-3 rounded-md font-bold uppercase tracking-wider transition-all duration-300 hover:bg-red-700 hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl;
+}
+
+.btn-secondary {
+    @apply bg-transparent border-2 border-barber-gold text-barber-gold px-8 py-3 rounded-md font-bold uppercase tracking-wider transition-all duration-300 hover:bg-barber-gold hover:text-barber-black hover:scale-105 active:scale-95;
+}
+
+/* Section Padding */
+.section-padding {
+    @apply py-16 md:py-24 lg:py-32 px-4 md:px-8 lg:px-16;
+}
+
+/* Container */
+.container-custom {
+    @apply max-w-7xl mx-auto;
+}
+
+/* Card Styles */
+.card-barber {
+    @apply bg-gradient-to-br from-zinc-900 to-zinc-800 rounded-lg p-6 shadow-xl border border-zinc-700 hover:border-barber-gold transition-all duration-300 hover:scale-105;
+}
+
+/* Divider */
+.divider-barber {
+    @apply w-24 h-1 bg-gradient-to-r from-barber-red via-barber-gold to-barber-teal mx-auto my-8;
+}

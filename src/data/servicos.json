@@ -1,0 +1,146 @@
+{
+    "categorias": [
+        {
+            "nome": "Cortes",
+            "itens": [
+                {
+                    "nome": "Corte",
+                    "desc": "Corte clássico com máquina e tesoura, perfeito para o dia a dia.",
+                    "preco": "R$ 30,00"
+                },
+                {
+                    "nome": "Corte Infantil",
+                    "desc": "Corte especial para crianças, com toda atenção e carinho.",
+                    "preco": "R$ 35,00"
+                },
+                {
+                    "nome": "Corte Tesoura",
+                    "desc": "Corte refinado apenas com tesoura para um acabamento premium.",
+                    "preco": "R$ 40,00"
+                }
+            ]
+        },
+        {
+            "nome": "Barba & Design",
+            "itens": [
+                {
+                    "nome": "Barba",
+                    "desc": "Aparação e modelagem da barba com acabamento perfeito.",
+                    "preco": "R$ 20,00"
+                },
+                {
+                    "nome": "Sobrancelha",
+                    "desc": "Design e alinhamento de sobrancelhas.",
+                    "preco": "R$ 10,00"
+                },
+                {
+                    "nome": "Cavanhaque",
+                    "desc": "Modelagem especializada de cavanhaque.",
+                    "preco": "R$ 10,00"
+                },
+                {
+                    "nome": "Barboterapia",
+                    "desc": "Experiência completa: toalha quente, navalha e massagem relaxante.",
+                    "preco": "R$ 35,00"
+                }
+            ]
+        },
+        {
+            "nome": "Coloração & Luzes",
+            "itens": [
+                {
+                    "nome": "Luzes",
+                    "desc": "Mechas e luzes para destacar seu estilo.",
+                    "preco": "A partir de R$ 40,00"
+                },
+                {
+                    "nome": "Luzes Alinhada",
+                    "desc": "Luzes com acabamento e alinhamento perfeito.",
+                    "preco": "R$ 50,00"
+                },
+                {
+                    "nome": "Colorimetria",
+                    "desc": "Coloração completa do cabelo.",
+                    "preco": "R$ 50,00"
+                },
+                {
+                    "nome": "Platinado (Nevou)",
+                    "desc": "Descoloração completa para visual platinado impecável.",
+                    "preco": "R$ 70,00"
+                }
+            ]
+        },
+        {
+            "nome": "Estética & Tratamentos",
+            "itens": [
+                {
+                    "nome": "Limpeza de Pele",
+                    "desc": "Limpeza facial profunda para pele renovada.",
+                    "preco": "R$ 20,00"
+                },
+                {
+                    "nome": "Pigmentação",
+                    "desc": "Pigmentação de barba e cabelo.",
+                    "preco": "R$ 20,00"
+                },
+                {
+                    "nome": "Epilação Nasal",
+                    "desc": "Remoção de pelos nasais com cuidado.",
+                    "preco": "R$ 10,00"
+                },
+                {
+                    "nome": "Epilação Auricular",
+                    "desc": "Remoção de pelos da orelha.",
+                    "preco": "R$ 10,00"
+                }
+            ]
+        },
+        {
+            "nome": "Arte & Freestyle",
+            "itens": [
+                {
+                    "nome": "Freestyle",
+                    "desc": "Corte artístico e personalizado do seu jeito.",
+                    "preco": "A partir de R$ 10,00"
+                },
+                {
+                    "nome": "Desenho",
+                    "desc": "Desenhos e arte capilar para se destacar.",
+                    "preco": "A partir de R$ 15,00"
+                }
+            ]
+        }
+    ],
+    "combos": [
+        {
+            "nome": "Combo Completo",
+            "desc": "Cabelo + Barba + Sobrancelha",
+            "preco": "R$ 50,00"
+        },
+        {
+            "nome": "Combo Básico",
+            "desc": "Corte + Sobrancelha",
+            "preco": "R$ 35,00"
+        },
+        {
+            "nome": "Combo Pigmentação",
+            "desc": "Corte + Pigmentação + Sobrancelha",
+            "preco": "R$ 50,00"
+        },
+        {
+            "nome": "Combo Colorimetria",
+            "desc": "Corte + Colorimetria + Sobrancelha",
+            "preco": "R$ 80,00"
+        },
+        {
+            "nome": "Combo Platinado",
+            "desc": "Platinado + Corte + Sobrancelha",
+            "preco": "R$ 100,00"
+        },
+        {
+            "nome": "Combo Luzes Alinhada",
+            "desc": "Luzes Alinhada + Corte + Sobrancelha",
+            "preco": "R$ 80,00"
+        }
+    ]
+}

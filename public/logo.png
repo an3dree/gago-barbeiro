@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#000000"/>
+  <text x="256" y="256" font-family="Arial" font-size="48" fill="#E31E24" text-anchor="middle" dominant-baseline="middle">
+    GAGO
+  </text>
+  <text x="256" y="310" font-family="Arial" font-size="32" fill="#D4B896" text-anchor="middle" dominant-baseline="middle">
+    BARBER SHOP
+  </text>
+  <text x="256" y="360" font-family="Arial" font-size="16" fill="#999999" text-anchor="middle" dominant-baseline="middle">
+    Substitua por logo.png
+  </text>
+</svg>
